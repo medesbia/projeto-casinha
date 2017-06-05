@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: dodgerblue;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sol{ 
+	width: 200px;
+	height: 200px;
+	background-color: gold;
+	align-items: center;
+	display: flex;
+	left: 25px;
+	top:10px;
+	border-radius:  100px;
+	
+}
+	.casa{ 
+		position: relative;
+	   width:600px;
+	   height: 500px;
+	   background-color: pink;
+	   top: 200px;
+	  
+
+	}
+.janela1{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: #000;
+	left: 200px;
+	top:90px;
+	border-radius: 50px;
+}
+.janela2{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	left: 400px;
+	top:100px;
+	border-radius: 50px;
+}
+.telhado{
+	width:602px;
+	height: 60px;
+	background-color: #4f4f4f;
+	position: absolute;
+}
+.porta{
+	width:180px;
+	height: 310px;
+	background-color: red;
+	position: relative;
+	top: 320px;
+	left:280px;
+
+}
+.maçaneta{width: 20px;
+	height: 20px;
+	background-color: black;
+	position: absolute;
+	left: 15px;
+	top:75px;
+	border-radius: 50px;
+
+}
+
+}
+.jardim{width:602px;
+	height: 60px;
+	position: absolute;
+	width:90px;
+	height: 60px;
+	background-color: green;
+	border-radius:  100px;
+	position: relative;
+}
+
+}
